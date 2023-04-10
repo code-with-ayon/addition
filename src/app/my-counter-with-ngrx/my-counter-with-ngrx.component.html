@@ -1,0 +1,24 @@
+<p>NgRx Example</p>
+
+<div>Current Count: {{ count$ | async }}</div>
+<button id="increment" (click)="increment()">Increment</button>
+
+
+<button id="decrement" (click)="decrement()">Decrement</button>
+
+<button id="reset" (click)="reset()">Reset Counter</button>
+<div>
+
+    <p>First Number:
+        <input type="number" [(ngModel)]="a" />
+    </p>
+    <p>2nd Number:
+        <input type="number" [(ngModel)]="b" />
+    </p>
+    <button type="button"(click)="addition()" >+</button>
+    <button type="button"(click)="sub()">-</button>
+    <p>Results
+        <input type="" [(ngModel)]="sum"  [(ngModel)]="dif"  />
+    </p>
+</div>
+
